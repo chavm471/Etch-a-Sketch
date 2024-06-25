@@ -1,1 +1,12 @@
 /*style sheet*/
+
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column; 
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
