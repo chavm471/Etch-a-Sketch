@@ -18,3 +18,10 @@ for (let i = 1; i < 256; ++i)
     container.appendChild(y_axis);
 }
 
+const temp = document.querySelectorAll("div");
+
+temp.forEach((div) => {
+    div.addEventListener("mouseover", () => {
+        div.style.backgroundColor = "white";
+    });
+});
